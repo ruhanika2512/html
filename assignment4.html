@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css layout</title>
+</head>
+<style>
+    .header{
+        background-color: rgb(251, 255, 0);
+        border:1px solid ;
+
+        
+        display: flex;
+        justify-content: space-evenly;
+        
+        
+    }
+    .ul{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .grid{
+    height: 85vh;
+        display: grid;
+        
+        gap: 1rem;
+        
+        
+        
+        
+     grid-template-columns: 1fr 1fr 1fr;
+     
+        
+        
+        
+        
+    
+    }
+    .grid1{
+        background-color: beige;
+        border: 1px solid;
+        
+        
+    }
+    .grid2{
+        background-color: beige;
+        border: 1px solid;
+        
+    }
+    .grid3{
+        background-color: beige;
+        border: 1px solid;
+        
+    }
+    .foot{background-color: rgb(223, 250, 215);
+        display: flex;
+        justify-content: flex-end;
+        align-content: end;
+        
+        
+        
+    }
+</style>
+<body>
+    <header class="header">
+        <nav class="ul">
+            <ul class="ul">
+               <Li class="ul"> <a href="task3.html">Home</a></Li>
+               <Li class="ul"> <a href="email:shahruhanika708@gmail,com">Query</a></Li>
+               <Li class="ul"> <a href="tel:7058924210">Contact Us</a></Li>
+               <Li class="ul"> <a href="task4.html">About Us</a></Li>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="grid">
+        <div class="grid1"></div>
+        <div class="grid2"></div>
+        <div class="grid3"></div>
+
+    </div>
+    <footer class="foot">&lt; &lt; &lt;&copy;Ruhanika shah &gt; &gt;&gt;</footer>
+    
+</body>
+</html>
