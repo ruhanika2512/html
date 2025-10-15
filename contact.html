@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact.html</title>
+    <style>
+        .form {
+            background-color: #fbf5f5;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+            max-width: 100%;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .foot{
+            text-align: center;
+            background-color: rgba(241, 235, 235, 0.696);
+            color: rgb(231, 228, 235);
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-decoration: none;
+            
+        }
+        a{
+            text-decoration: none;
+            color: rgb(10, 10, 23);
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            
+
+        }
+    </style>
+</head>
+<body>
+   <h1>contact page</h1>
+   <div class="form">
+    <form action="/submit-contact" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required><br><br>
+        <label for="message">Message:</label>
+        <input type="text" id="message" name="message" required><br><br>
+        <button type="send">send</button>
+    </form>
+   </div> 
+   <footer>
+    <div class="foot">
+        <a href="tel:9122306869" >tel:9122306869</a>
+        <br>
+        <a href="tel:1223468900">Toll free:799634566</a> <br>
+        <a href="mailto:shahruhanika708@gmail.com"> mail:shahruhanika708@gmail.com</a> <br>
+        <a href="https://www.google.com/maps/place/India/@20.593684,78.96288,5z/data=!3m1!4b1!4m5!3m4!1s0x30635ff6d260f2b3:0x3c7cd8baafdb9f11!8m2!3d20.593684!4d78.96288">Address:BBD UNIVERSITY Lucknow faizabad </a>
+        <br>
+    <img src="https://bbdu.ac.in/wp-content/uploads/2020/07/bbd-university-academic-brochure-2020-pdf.jpg" alt="">
+    <img src="https://download.logo.wine/logo/Instagram/Instagram-Logo.wine.png" alt="">
+    <img src="https://www.citypng.com/public/uploads/preview/hd-blue-and-white-square-facebook-fb-logo-70175169479235560lh86s7jg.png" alt="">
+    
+
+    </div>
+   </footer>
+
+
+    
+</body>
+</html>
